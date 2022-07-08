@@ -16,3 +16,7 @@ collectionprefix = "obj_"
 dbprefix = ""
 appprefix = "app_"
 # sentrydsn = "https://xxxxxxx@sentry.io/xxxxxxx"
+
+dbuser = "mongodb"
+dbpass = "d2o0n1g2s0h3e1n1g"
+dbauthsource = "admin"
