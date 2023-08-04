@@ -8,6 +8,8 @@ EXPOSE 8801
 RUN apt-get update && \
     apt-get install -y --no-install-recommends git ca-certificates
 
+RUN apt-get install -y --no-install-recommends python3-dev
+
 RUN pip3 install pipenv
 
 RUN git clone -b master https://github.com/DigitalLearning/airnotifier.git /airnotifier
